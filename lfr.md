@@ -1,4 +1,4 @@
-flowchart TD
+
     Start[Power On] --> InitPins[Initialize Motor & Sensor Pins]
     InitPins --> CalibSensors[Calibrate IR Sensors<br/>Read baseline values]
     CalibSensors --> WaitStart[Wait for Start Button]
